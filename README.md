@@ -155,7 +155,7 @@ Execute callback once for each value.
 <!-- prettier-ignore -->
 | Option | Type | Description |
 | --- | --- | --- |
-| `cb`\* | `Function`, `cb(value)` | Callback to execute |
+| `cb`\* | `Function`, `cb(value)` | Callback to execute, _required_ |
 | `thisArg` | `*` | A value to use as `this` when executing callback. Default - current enum instance. |
 |  |  |  |
 | **`return`** | `Enum` | Returns current enum instance |
@@ -179,7 +179,7 @@ Execute callback once for each key.
 <!-- prettier-ignore -->
 | Option | Type | Description |
 | --- | --- | --- |
-| `cb`\* | `Function`, `cb(key, value)` | Callback to execute |
+| `cb`\* | `Function`, `cb(key, value)` | Callback to execute, _required_ |
 | `thisArg` | `*` | A value to use as `this` when executing callback. Default - current enum instance. |
 |  |  |  |
 | **`return`** | `Enum` | Returns current enum instance |
