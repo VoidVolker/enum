@@ -29,6 +29,9 @@
         "type": "git",
         "url": "git+https://github.com/VoidVolker/enum.git"
     },
+    "publishConfig": {
+        "access": "public"
+    },
     "scripts": {
         "cleanup-urls": "for f in src/*.js test/*.js; do awk '!/^\\/\\/# sourceURL/' $f > tmpfile && mv tmpfile $f; done",
         "make": "coffee -c -b -M ./ && npm run cleanup-urls",
